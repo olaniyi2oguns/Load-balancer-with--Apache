@@ -1,5 +1,12 @@
 # Load-balancer-with--Apache
 
+**Objective of this project**
+
+*The objective of this project is to explain the concept of horizontal scaling and scalability in the context of web servers. It also introduces the idea of using a Load Balancer (LB) to distribute clients' requests among multiple web servers, allowing for optimal distribution of load and a single point of access with a single public IP address/name.*
+
+
+**CONFIGURE APACHE AS A LOAD BALANCER**
+
 This project is a continuation of [devops-tooling-web-solution project](https://github.com/olaniyi2oguns/Devops-tooling-web-solution.git) in which we created a storage server (NFS) to create easy communication between three different webservers.
 
 It will not be ideal to be giving different domain name to the same company website just because the website has different web servers that are responding to customer request. Therefore, in this project we are creating another server whose ip address or domain name will be used to grap information from the web servers to give response to customers request. 
